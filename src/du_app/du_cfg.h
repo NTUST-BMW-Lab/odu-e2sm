@@ -28,17 +28,9 @@
 #define DU_ID 1
 
 #ifndef O1_ENABLE
-#define DU_IP_V4_ADDR "192.168.8.5"
-#define CU_IP_V4_ADDR "192.168.8.245"
-<<<<<<< HEAD
-#define RIC_IP_V4_ADDR "192.168.8.228" /*192.168.8.24*/
-=======
-<<<<<<< Updated upstream
-#define RIC_IP_V4_ADDR "192.168.8.167" /*192.168.8.85*/
-=======
-#define RIC_IP_V4_ADDR "192.168.8.228" /*192.168.8.85*/
->>>>>>> Stashed changes
->>>>>>> 65785e7fdb2a1f778048b4a2e22e3222113b14be
+#define DU_IP_V4_ADDR /*<DU IP Address> ex: "192.168.8.5"*/
+#define CU_IP_V4_ADDR /*<CU IP Address> ex: "192.168.8.245"*/
+#define RIC_IP_V4_ADDR /*<RIC IP Address> ex: "192.168.8.41"*/
 
 #define F1_SCTP_PORT 38472  /* As per the spec 38.472, the registered port number for F1AP is 38472 */
 #define E2_SCTP_PORT 32222 /* 36421 */
