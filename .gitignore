@@ -8,3 +8,4 @@ libs
 build/yang
 build/odu/bin
 bin/
+build/netconf
