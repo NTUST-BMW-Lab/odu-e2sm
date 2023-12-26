@@ -2,3 +2,9 @@
 .tox
 .DS_Store
 docs/_build/
+build/odu/lib
+build/odu/obj
+libs
+build/yang
+build/odu/bin
+bin/
